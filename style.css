@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    background-color: #f2f2f2;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    height: 300px;
+    width: 450px;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons, 
+.description{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.col{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row{
+    height: 30%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn{
+    width: 30%;
+    background-color: #4b91dd;
+    color: white;
+    padding: 10px 5px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 2px;
+    border: none;
+    font-size: 0.6em;
+    cursor: pointer;
+}
+
+.row p{
+    width: 30%;
+    text-transform: uppercase;
+    color: #929293;
+    font-size: 0.5em;
+}
+
+.hover .btn{
+    background-color: #3277ca;
+}
+
+.disabled .btn{
+    background-color: #c0cad4;
+}
+
+.btn2{
+    width: 30%;
+    background-color: white;
+    color: #6f96da;
+    border: 1px solid #6f96da;
+    padding: 10px 5px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 2px;
+    font-size: 0.4em;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.hover .btn2{
+    border: 1px solid #3277ca;
+    color: #3277ca;
+}
+
+.disabled .btn2{
+    border: 1px solid #c0cad4;
+    color: #c0cad4;
+}
+
+.title{
+    width: 100%;
+    color: #34365e;
+}
+
+.description .col{
+    padding: 10px;
+
+}
+
+.text{
+    color: #484856;
+    font-size: 0.5em;
+}
+
+.text p a{
+    text-decoration: none;
+}
+
+.lowerText{
+    color: #929293;
+    font-size: 0.4em;
+}
+
+.badges{
+    width: 100%;
+}
+
+.badges .heading{
+    width: 100%;
+    color: #8b8c8f;
+    text-transform: uppercase;
+    font-size: 0.4em;   
+}
+
+.badges .badgeButtons{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.badgeButtons button{
+    font-size: 0.2em;
+    padding: 2px;
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(223, 223, 223);
+    cursor: pointer;
+}
+
+.badgeButtons .default{
+    background-color: #498fde;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.badgeButtons .positive{
+    background-color: #7fc334;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.badgeButtons .negative{
+    background-color: #e24d63;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.number{
+    border: 1px solid white;
+    color: white;
+    border-radius: 50%;
+    padding: 1px 2px;
+}
+
+.innerCard{
+    height: 70%;
+    width: 100%;
+}
+
+.innerCard .heading{
+    width: 100%;
+    color: #8b8c8f;
+    text-transform: uppercase;
+    font-size: 0.4em;   
+}
+
+.newCard{
+    height: 80%;
+    border: 1px solid #d4d4d4;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.cardTitle{
+    color: #443f59;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardTitle i{
+    color: #c7cad7;
+}
+
+.cardText{
+    color: #8b8c8f;
+    font-size: 0.4em;
+}
+
+.link a{
+    font-size: 0.4em;
+    text-decoration: none;
+}
